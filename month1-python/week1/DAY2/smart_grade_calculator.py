@@ -46,7 +46,7 @@ scores = [score1, score2, score3]
 average = calculate_average(scores)
 grade = get_grade(average)
 status = get_status(average)
-
+name = input("enter student name: ")
 display_report(name, average, grade, status)
 
 
