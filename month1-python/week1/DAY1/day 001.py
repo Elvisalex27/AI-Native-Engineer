@@ -1,15 +1,15 @@
-# Ask for a number and print "Even" or "Odd".
-n =int(input("enter a number: "))
-if n % 2 == 0:
-    print("this is an even number")
-else:
-    print("this is an odd number")
+# # Ask for a number and print "Even" or "Odd".
+# n =int(input("enter a number: "))
+# if n % 2 == 0:
+#     print("this is an even number")
+# else:
+#     print("this is an odd number")
 
-# Largest of Three
-# Ask for three numbers and print the largest.
-x = ( 2,5,7)
-largest = max(x)
-print(largest)
+# # Largest of Three
+# # Ask for three numbers and print the largest.
+# x = ( 2,5,7)
+# largest = max(x)
+# print(largest)
 
 #using loops for largest
 large = x[0]
@@ -34,7 +34,7 @@ print (f"there are {count} vowels in the word")
 string = "pussycat"
 reverse = ""
 for ch in string:
-    reverse += ch
+    reverse = ch + reverse
 print(reverse)
 
 
