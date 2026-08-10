@@ -1,4 +1,6 @@
-print("= * 20 ")
+#mini assesment from L2E 
+header = "=" * 20 
+print(header)
 name = "Elvis alex-mozie"
 age = 23
 fav_subject = "Maths"
@@ -11,7 +13,7 @@ print(f"favorite subject: {fav_subject}")
 print(f"hobby: {hobby}")
 
 
-print("= * 20 ")
+print(header)
 print("WHAT I HAVE LEARNT\n1. how to create a variable\n2. how to use input statement\n3. " \
 "")
 
