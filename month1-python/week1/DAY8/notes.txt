@@ -1,0 +1,6 @@
+What I learned:
+i learnt how to manipulate a list, add, remove and edit  a list.
+i also learnt how to loop through a list
+What was difficult:
+i still have little problems in the listing
+How I solved it:

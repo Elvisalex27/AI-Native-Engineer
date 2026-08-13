@@ -1,0 +1,9 @@
+What I learned:
+    i learnt how to use different functions to manipulate a string such as .upper(), .lower(), .count(), .replace(), .strip(), .split()etc....
+    i also learnt how strings were indexted and how to get the index of a particular string
+
+
+
+What was difficult:
+to loop through the sentence and count the vowels
+How I solved it
