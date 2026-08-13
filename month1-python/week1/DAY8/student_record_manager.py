@@ -7,6 +7,7 @@ def add_student():
     new_student = {"name": name, "score": score}
     students.append(new_student)
 
+
     print("Student added successfully")
 
 
