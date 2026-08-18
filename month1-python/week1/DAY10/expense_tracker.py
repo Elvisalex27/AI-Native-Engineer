@@ -33,7 +33,7 @@ def delete():
     deleted_expense = input("Enter the name of the Product: ")
     for expense in expenses:
         if deleted_expense == expense["name"]:
-            expenses.remove(expense)6
+            expenses.remove(expense)
             print(f"{deleted_expense} has been removed successfully")
             return
                     
