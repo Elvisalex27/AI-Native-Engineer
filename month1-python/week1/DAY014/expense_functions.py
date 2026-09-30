@@ -91,3 +91,4 @@ def expense_report():
     print(f"Total Expenses: {total_expense}\n Average Expense: {average}\n Number of Expense: {num_of_expense}\n\n\n Cheapest Expense: {cheap['name']} - {cheap['price']}\n\n\n Most Expensive Expense: {cost['name']} - {cost['price']} ")
     print("="*45)
 
+add_expense()

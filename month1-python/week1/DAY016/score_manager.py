@@ -25,7 +25,7 @@ def add_function():
     students.append(student)
 
 def view_students():
-    if not student:
+    if not students:
         print("the list is empty")
 
     print('=' * 10 + "STUDENTS" + '=' * 10)
@@ -52,8 +52,8 @@ def highest_score():
     highest = students[0]
     for student in students:
         if student["score"] > highest["score"]:
-            highest["score"] = student["score"]
-    return f"{student['name']}-  {highest["score"]}"
+            highest = student
+    return f"{student['name']} -  {highest['score']}"
 
 
 while True:
